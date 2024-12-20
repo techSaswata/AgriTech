@@ -1,1 +1,1 @@
-export const API_URL = 'https://api.example.com'; // Replace with actual API endpoint
+export const API_URL = 'https://lofrcouzknugosjzmhwp.supabase.co'; // Replace with actual API endpoint
