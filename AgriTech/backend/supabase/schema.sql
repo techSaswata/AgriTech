@@ -33,3 +33,5 @@ CREATE TABLE messages (
     content TEXT,
     timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+
