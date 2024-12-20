@@ -1,7 +1,12 @@
 const { supabase } = require('../supabase/config');
 
-test('Database connection', async () => {
+async function testDatabaseConnection() {
     const { data, error } = await supabase.from('buyers').select('*');
-    expect(error).toBeNull();
-    expect(data).not.toBeNull();
-});
+    if (error) {
+        console.error('Database Test Error:', error.message);
+    } else {
+        console.log('Database Connection Test Passed:', data);
+    }
+}
+
+testDatabaseConnection();

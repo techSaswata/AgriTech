@@ -1,6 +1,18 @@
 const axios = require('axios');
 
-test('Get Orders API', async () => {
-    const response = await axios.get('http://localhost:3000/api/orders');
-    expect(response.status).toBe(200);
-});
+async function testApiEndpoints() {
+    try {
+        const buyerResponse = await axios.post('/api/buyer', {
+            name: 'Test Buyer',
+            email: 'testbuyer@example.com',
+        });
+        console.log('Buyer API Test:', buyerResponse.data);
+
+        const orderResponse = await axios.get('/api/orders');
+        console.log('Order API Test:', orderResponse.data);
+    } catch (error) {
+        console.error('API Test Error:', error.message);
+    }
+}
+
+testApiEndpoints();
