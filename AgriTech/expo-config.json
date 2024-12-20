@@ -1,5 +1,6 @@
 {
     "expo": {
+      "sdkVersion": "52.0.0",
       "name": "AgriTech Platform",
       "slug": "agritech-platform",
       "version": "1.0.0",
