@@ -1,0 +1,36 @@
+{
+    "expo": {
+      "name": "AgriTech Platform",
+      "slug": "agritech-platform",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icons/app-icon.png",
+      "splash": {
+        "image": "./assets/icons/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.agritech.platform"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/icons/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        },
+        "package": "com.agritech.platform",
+        "permissions": ["INTERNET"]
+      },
+      "web": {
+        "favicon": "./assets/icons/favicon.png"
+      },
+      "description": "An AgriTech platform for seamless B2B transactions between buyers and sellers."
+    }
+  }
