@@ -54,7 +54,7 @@ AgriTech is a project leveraging IoT, data analytics, and automation to moderniz
 
 
 ## Contact
-- **Saswata**: [saswata.tech@gmail.com](mailto:tech.saswata@gmail.com)
+- **Saswata**: [tech.saswata@gmail.com](mailto:tech.saswata@gmail.com)
 - **GitHub**: [techSaswata](https://github.com/techSaswata)
 
 
